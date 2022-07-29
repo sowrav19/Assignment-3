@@ -1,0 +1,79 @@
+.head {
+    bottom: 170px;
+}
+
+.carousel-item h1 {
+    font-size: 60px;
+}
+
+.card-margin {
+    padding-top: 150px;
+}
+
+.img-height {
+    height: 80px;
+}
+
+.workman {
+    background-color: #F4FAFD;
+}
+
+.enroll-color {
+    color: #289BDE;
+}
+
+.btn-colors,
+.bg-colors {
+    background-color: #289BDE;
+}
+
+.text-color {
+    color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small img {
+        width: 100%;
+    }
+
+    .head h1 {
+        font-size: 5vw;
+
+    }
+
+    .head p {
+        font-size: 2vw;
+
+    }
+
+    .head {
+        top: 25px;
+    }
+
+    .btn-size {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width: 992px) {
+    .head {
+        top: 60px;
+    }
+
+    .card-margin {
+        padding-top: 10px;
+    }
+
+    .small {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
